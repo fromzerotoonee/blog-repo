@@ -1,4 +1,4 @@
-logoText = "Zzo"
+logoText = "Atom"
 logoType = "short" # long, short
 description = "The Zzo theme for Hugo example site."
 custom_css = []
@@ -21,7 +21,7 @@ minItemsToShowInTagCloud = 1 # Minimum items to show in tag cloud
 
 # appbar
 enableAppbarSearchIcon = false
-enableAppbarLangIcon = false
+enableAppbarLangIcon = true
 
 # header
 homeHeaderType = "text" # text, img, slide, typewriter
@@ -60,14 +60,14 @@ publicationIcon = "📚"
 typeIcon = "🎯"
 
 # whoami
-myname = "zzossig"
-email = "zzossig@gmail.com"
-whoami = "Web Developer"
+myname = "fromzerotoone"
+email = "admin@fromzerotoone.in"
+whoami = "Ethical Hacker"
 bioImageUrl = ""
 useGravatar = false
-location = "Seoul, Korea"
-organization = "Hugo"
-link = "https://zzossig.io/ko"
+location = "127.0.0.1"
+organization = "Atom"
+link = "https://fromzerotoone.in"
 
 # sidebar
 enableBio = true
@@ -84,21 +84,21 @@ tocFolding = true
 tocPosition = "inner" # inner, outer
 enableTocSwitch = true
 itemsPerCategory = 5
-sidebarPosition = "right"
+sidebarPosition = "left"
 tocLevels = ["h2", "h3", "h4"]
 enableSidebarPostsByOrder = false
 
 # footer
 showPoweredBy = true
-showFeedLinks = true
+showFeedLinks = false
 showSocialLinks = true
 enableLangChange = true
-enableThemeChange = true
+enableThemeChange = false
 
 # service
 googleTagManager = "" # GTM-XXXXXX
 baiduAnalytics = ""
-enableBusuanzi = false
+enableBusuanzi = true
 busuanziSiteUV = true
 busuanziSitePV = true
 busuanziPagePV = true
@@ -111,7 +111,7 @@ fullContents = false
 # comment
 enableComment = true
 disqus_shortname = ""
-commento = false
+commento = true
 
 [telegram]
   enable = false
