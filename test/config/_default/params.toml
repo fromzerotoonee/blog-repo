@@ -8,8 +8,8 @@ meta_image = ""
 themecolor = ""
 
 themeOptions = ["dark", "light", "hacker", "solarized", "kimbie"]
-notAllowedTypesInHome = ["contact", "talks", "about", "presentation", ]
-notAllowedTypesInHomeSidebar = ["about", "archive",  "presentation", ]
+notAllowedTypesInHome = ["contact", "talks", "about", "presentation",]
+notAllowedTypesInHomeSidebar = ["about", "archive",  "presentation",]
 notAllowedTypesInArchive = ["about", "talks",  "presentation", "resume"]
 notAllowedTypesInHomeFeed = ["about", "archive", "contact", "talks", "presentation", ]
 
@@ -20,8 +20,8 @@ enablePinnedPosts = true
 minItemsToShowInTagCloud = 1 # Minimum items to show in tag cloud
 
 # appbar
-enableAppbarSearchIcon = false
-enableAppbarLangIcon = true
+enableAppbarSearchIcon = true
+enableAppbarLangIcon = false
 
 # header
 homeHeaderType = "text" # text, img, slide, typewriter
