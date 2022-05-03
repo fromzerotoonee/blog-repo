@@ -109,9 +109,9 @@ updateFrequency = ""
 fullContents = false
 
 # comment
-enableComment = true
+enableComment = false
 disqus_shortname = ""
-commento = true
+commento = false
 
 [telegram]
   enable = false
