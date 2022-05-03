@@ -1,0 +1,4 @@
+[submodule "test/public"]
+	path = test/public
+	url = https://github.com/fromzerotoonee/fromzerotoonee.github.io.git
+	branch = main
