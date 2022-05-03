@@ -60,14 +60,14 @@ publicationIcon = "📚"
 typeIcon = "🎯"
 
 # whoami
-myname = "fromzerotoone"
+myname = "FromZeroToOne"
 email = "admin@fromzerotoone.in"
-whoami = "Ethical Hacker"
-bioImageUrl = ""
+whoami = "Ethical Hackerr"
+bioImageUrl = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaM8D7DYc2dCKJKU6CxKSWp-OSwVI-wZAtJA&usqp=CAU"
 useGravatar = false
 location = "127.0.0.1"
-organization = "Atom"
-link = "https://fromzerotoone.in"
+organization = "Atoms"
+link = "https:fromzerotoone.in"
 
 # sidebar
 enableBio = true
@@ -90,10 +90,10 @@ enableSidebarPostsByOrder = false
 
 # footer
 showPoweredBy = true
-showFeedLinks = false
+showFeedLinks = true
 showSocialLinks = true
-enableLangChange = true
-enableThemeChange = false
+enableLangChange = false
+enableThemeChange = true
 
 # service
 googleTagManager = "" # GTM-XXXXXX
@@ -196,15 +196,14 @@ commento = true
   enable = false
   alipay = "" 
   wechat = ""
-  paypal = ""
+  paypal = "ssss"
   patreon = ""
 
 # possible share name: ["facebook","twitter", "reddit", "linkedin", "tumblr", "weibo", "douban", "line", "pocket", "feedly", "hatena", "pinterest", "delicious", "google"]
-[[share]]
-  name = "facebook"
-  username = ""
+
 [[share]]
   name = "twitter"
+  username = ""
 
 [[footerLinks]]
   name = ""
