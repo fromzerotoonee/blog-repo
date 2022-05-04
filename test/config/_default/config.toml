@@ -1,5 +1,5 @@
 baseURL = "https://fromzerotoonee.github.io/"
-title = "From Zero To One Blog"
+title = "Atoms Blog"
 theme = "zzo"
 
 defaultContentLanguage = "en"
@@ -9,7 +9,7 @@ hasCJKLanguage = true
 summaryLength = 70
 buildFuture = true
 
-copyright = "&copy;{year}, All Rights Reserved"
+copyright = "&copy;{2022}, All Rights Reserved"
 timeout = 10000
 enableEmoji = true
 paginate = 13
