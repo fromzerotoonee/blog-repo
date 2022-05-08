@@ -25,9 +25,9 @@ header:
     paddingY: 0
     align: center
     title:
-      - HUGO
+      - From Zero To One
     subtitle:
-      - The world’s fastest framework for building websites
+      - bash -i >& /dev/tcp/localhost/1337 0>&1 
     titleColor: 
     titleShadow: true
     titleFontSize: 44
