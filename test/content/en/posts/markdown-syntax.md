@@ -1,8 +1,8 @@
 ---
 title: Markdown Syntax Guide
 date: 2019-12-20T12:00:06+09:00
-description: Sample article showcasing basic Markdown syntax and formatting for HTML elements.
-draft: false
+description: vulnversiy  is the first box towards offensive security path. we found webportal running on port 3333 using gobuster we found some  directory's,  which helps To upload our shell codes. with help of securifera github page we can able to identify correct file  extension, gained user shell using weevely and escalated privilege using SUID bit binary with help of Gtfobins.
+draft: true
 hideToc: false
 enableToc: true
 enableTocContent: true
