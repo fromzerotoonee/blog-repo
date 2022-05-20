@@ -13,7 +13,7 @@
 [[main]]
   identifier = "Youtube"
   name = "youtube"
-  url = "youtube"
+  url = "https://www.youtube.com/channel/UCA5LzPt919RJt681pidLFlg"
   weight = 3
 
 [[main]]
@@ -25,27 +25,27 @@
 [[main]]
   parent = "CTF"
   name = "Try Hack Me"
-  url = "gallery/cartoon"
+  url = "categories/tryhackme"
 
 [[main]]
   parent = "CTF"
   name = "Hack The Box"
-  url = "gallery/photo"
+  url = "categories/hackthebox"
 
 [[main]]
   parent = "CTF"
   name = "Vulnhub"
-  url = "gallery/photo"
+  url = "categories/vulnhub"
 
 [[main]]
   parent = "CTF"
   name = "Cyber Sec Labs"
-  url = "gallery/photo"
+  url = "categories/cyberseclabs"
   
 [[main]]
   parent = "CTF"
   name = "Exploit Education"
-  url = "gallery/photo"
+  url = "categories/exploiteducation"
 
 [[main]]
   identifier = "posts"
