@@ -10,16 +10,16 @@
   url = "archive"
   weight = 4
 
-[[main]]
-  identifier = "Youtube"
-  name = "youtube"
-  url = "https://www.youtube.com/channel/UCA5LzPt919RJt681pidLFlg"
-  weight = 3
+#[[main]]
+#  identifier = "Youtube"
+#  name = "youtube"
+#  url = "https://www.youtube.com/channel/UCA5LzPt919RJt681pidLFlg"
+#  weight = 3
 
 [[main]]
   identifier = "CTF"
   name = "CTF"
-  url = "gallery"
+  url = "posts"
   weight = 1
     
 [[main]]
@@ -37,15 +37,15 @@
   name = "Vulnhub"
   url = "categories/vulnhub"
 
-[[main]]
-  parent = "CTF"
-  name = "Cyber Sec Labs"
-  url = "categories/cyberseclabs"
+#[[main]]
+#  parent = "CTF"
+#  name = "Cyber Sec Labs"
+#  url = "categories/cyberseclabs"
   
-[[main]]
-  parent = "CTF"
-  name = "Exploit Education"
-  url = "categories/exploiteducation"
+#[[main]]
+#  parent = "CTF"
+#  name = "Exploit Education"
+#  url = "categories/exploiteducation"
 
 [[main]]
   identifier = "posts"
