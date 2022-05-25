@@ -20,7 +20,7 @@ categories:
 - Cloud Pentest
 libraries:
 - 
-image: 
+image: /images/cloudpentest/flaw.png
 ---
 
 Hi Hackers Welcome Back ..
