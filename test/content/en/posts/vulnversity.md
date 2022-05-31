@@ -1,5 +1,5 @@
 ---
-title: "Try Hach Me - Vulnversity"
+title: "Try Hack Me - Vulnversity"
 date: 2022-05-08T17:50:58+05:30
 description: "vulnversiy  was the first box towards offensive security path. we found web portal running on port 3333 using gobuster we found some  directory's,  which helps To upload our shell codes. with help of  securifera github page we can able to identify correct file  extension, gained user shell using php-reverse-shell and escalated privilege using SUID bit binary with help of Gtfobins."
 draft: false
@@ -15,7 +15,8 @@ tags:
 series:
 - Try Hack Me - Offensive Security
 categories:
-- tryhackme
+- TryHackMe
+- Linux
 image: /images/tryhackme/vulnversity/cover.webp
 ---
 ## Road Map

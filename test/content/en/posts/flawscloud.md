@@ -1,5 +1,5 @@
 ---
-title: "Flawscloud"
+title: "Flaws.cloud - AWS Security practice"
 date: 2022-05-25T09:31:38+05:30
 draft: false
 description: flAWS.cloud is a set of CTF-like challenges that teach you common security issues in AWS accounts. The game is about breaking into a real AWS account by exploiting badly crafted account permissions. It has 6 levels.
@@ -15,7 +15,7 @@ tags:
 - git
 - s3
 series:
-- cloud pentest - aws
+- Cloud Pentest - AWS
 categories:
 - Cloud Pentest
 libraries:
