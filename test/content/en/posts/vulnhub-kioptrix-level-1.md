@@ -20,8 +20,16 @@ categories:
 - VulnHub
 - Linux
 - CVE 
-image: /images/tryhackme/vulnversity/cover.webp
+libraries:
+- flowchartjs
+
+image: /images/vulnhub/kioptrix1/lg.png
 ---
+## Mind Map
+
+{{< img src="/images/vulnhub/kioptrix1/mm.png" alt="image alt" width="1000px" position="center" >}}
+
+
 
 ## Info Table
 <table style="width:70%">
@@ -266,7 +274,7 @@ Nmap done: 1 IP address (1 host up) scanned in 9.43 seconds
 
 We can see that there is a tons of exploit available, but we can see that there is no critical CVE. we got version from target system, now a days all exploits available on git hub We can  refer GitHub weather any exploits available for this version 
 
-{{< img src="/images/vulnhub/kioptrix1/2.png" alt="image alt" width="1000px" position="center" >}}
+{{< img src="/images/vulnhub/kioptrix1/2.png" alt="image alt" width="800px" height="500px" position="center" >}}
 
 ```bash
 ┌─[atom@atom-vmwarevirtualplatform]─[~/Documents/vulnhub]
@@ -559,7 +567,7 @@ RHOST => 192.168.132.129
 
 finally we came to know that  version info ```Samba 2.2.1a```.  search on google any public exploit available.  
 
-{{< img src="/images/vulnhub/kioptrix1/3.png" alt="image alt" width="1000px" position="center" >}}
+{{< img src="/images/vulnhub/kioptrix1/3.png" alt="image alt" width="600px" position="center" >}}
 
 ```bash
 [msf](Jobs:0 Agents:0) auxiliary(scanner/smb/smb_version) >> use exploit/linux/samba/trans2open
@@ -688,5 +696,6 @@ root
 hostname
 kioptrix.level1
 ```
-
+{{< notice success "we have successfully compromized this vm " >}}
 See you on the next Blog, Happy hacking...
+{{< /notice >}}
