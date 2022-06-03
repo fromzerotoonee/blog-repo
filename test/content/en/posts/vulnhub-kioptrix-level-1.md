@@ -10,18 +10,23 @@ enableTocContent: false
 author: Atom
 authorEmoji: ✍️
 tags: 
+- samba
 - OpenLuck
 - OpenFuck
 - Trance2open
 - CVE-ID-2002-0082
 - CVE-ID-2003-0201
 series:
+- Pratical Ethical Hacking TCM
 categories:
+- Easy
 - VulnHub
 - Linux
-- CVE 
+- CVE Exploitation
+- Metasploit
+- Public Exploit
 libraries:
-- flowchartjs
+
 
 image: /images/vulnhub/kioptrix1/lg.png
 ---
@@ -32,7 +37,7 @@ image: /images/vulnhub/kioptrix1/lg.png
 
 
 ## Info Table
-<table style="width:70%">
+<table style="width:100%">
  <thead>
   <tr>
     <th>Title</th>
@@ -44,8 +49,8 @@ image: /images/vulnhub/kioptrix1/lg.png
     <td>VulnHub</td>
     </tr>
   <tr>
-    <td>Description</td>
-    <td>Learn about active recon, CVE </td>
+    <td>OS</td>
+    <td>Linux </td>
     </tr>
   </tr>
    <tr>
@@ -58,7 +63,9 @@ image: /images/vulnhub/kioptrix1/lg.png
     </tr>
 </table>
 
-Hi hackers Welcome Back Today we are going to look into  vulnhub box which is Kioptrix-Level-1 , you can download this box using this <a href=[https://www.vulnhub.com/entry/kioptrix-level-1-1,22/](https://www.vulnhub.com/entry/kioptrix-level-1-1,22/) > link </a> 
+## Reconnaissance
+
+Hi hackers Welcome Back Today we are going to look into  vulnhub box which is Kioptrix-Level-1 , you can download this box using this <a href=https://www.vulnhub.com/entry/kioptrix-level-1-1,22/ > link </a> 
 
 Open VMware and import .vmx file into it, once you get imported , you can able to find login screen
 
