@@ -53,16 +53,15 @@ Hi Hackers Welcome Back this is my very first  Hack The Box Machine which i have
     </tr>
     <tr>
     <td>Maker</td>
-    <td><a href=https://app.hackthebox.com/users/1 > ch4p </a> </td>
+    <td><a href="https://www.hackthebox.eu/home/users/profile/1"><img src="https://www.hackthebox.eu/badge/image/1" alt="" style="display: unset"></a>  </td>
     </tr>
     <tr>
-    <td>Maker</td>
-    <td><a href=https://www.hackthebox.eu/home/users/profile/610173 > dmw </a> </td>
     </tr>
 </table>
 
 ## Kill Chain Summery
-While enumerating ports and services we find the service, which is vulnerable to infamous MS08-067 & MS17-010 SMB vulnerabilities which can be easily exploited with publicly available scripts and Metasploit.
+While enumerating ports and services we can able to find the service, which is vulnerable to infamous MS08-067 & MS17-010 SMB vulnerabilities which can be easily exploited with publicly available scripts and Metasploit.
+
 ## Mind Map 
 {{< img src="/images/hackthebox/legacy/3.png" alt="image alt" width="1000px"  position="center" >}}
 
@@ -401,7 +400,7 @@ CVE-2017–0143 (MS17–010). The vulnerability we’ll be exploiting is called 
 
 let's start exploiting manual method 
 
-Download the exploit code from <a href=`https://github.com/helviojunior/MS17-010.git` >Github </a> execute by following method and make sure that you have python2 and impacket module installed on your computer.
+Download the exploit code from <a href=https://github.com/helviojunior/MS17-010.git >Github </a> execute by following method and make sure that you have python2 and impacket module installed on your computer.
 
 {{< notice warning "Exploit warning " >}}
 This exploit code will not work on python2 without any modification, if you have installed  both python2 and python3, you can install impacket module by using ```pip2 install impacket ```
