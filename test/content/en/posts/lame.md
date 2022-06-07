@@ -2,7 +2,7 @@
 title: "Hack The Box - Lame"
 date: 2022-06-07T17:29:31+05:30
 draft: false
-description: 
+description: " Legacy from HackTheBox is an retired machine which is vulnerable to infamous CVE - 2007-2447 & 2004-2687 SMB vulnerabilities which can be easily exploited with publicly available scripts and Metasploit "
 hideToc: false
 tocPosition: outer
 enableToc: true
@@ -28,6 +28,7 @@ image: /images/hackthebox/lame/Lame.png
 ---
 
 Hi Hackers Welcome Back Today we are going to look at Hack The Box Lame Machine.
+
 {{< img src="/images/hackthebox/lame/image.png" alt="image alt" width="450px"  position="center" >}}
 ## Info Table
 <table style="width:100%">
