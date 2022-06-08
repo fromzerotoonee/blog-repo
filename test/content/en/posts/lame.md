@@ -2,7 +2,7 @@
 title: "Hack The Box - Lame"
 date: 2022-06-07T17:29:31+05:30
 draft: false
-description: " Legacy from HackTheBox is an retired machine which is vulnerable to infamous CVE - 2007-2447 & 2004-2687 SMB vulnerabilities which can be easily exploited with publicly available scripts and Metasploit "
+description: " Lame from HackTheBox is an retired machine which is vulnerable to infamous CVE - 2007-2447 & 2004-2687 SMB vulnerabilities which can be easily exploited with publicly available scripts and Metasploit "
 hideToc: false
 tocPosition: outer
 enableToc: true
@@ -27,7 +27,7 @@ libraries:
 image: /images/hackthebox/lame/Lame.png
 ---
 
-Hi Hackers Welcome Back Today we are going to look at Hack The Box Lame Machine.
+Hi Hackers Welcome Back, Today we are going to look at Hack The Box Blue Machine.
 
 {{< img src="/images/hackthebox/lame/image.png" alt="image alt" width="450px"  position="center" >}}
 ## Info Table
@@ -158,17 +158,17 @@ Nmap done: 1 IP address (1 host up) scanned in 7.68 seconds
 ```
 {{< boxmd >}}
 Service and its Version
-- 21/tcp  open  ftp         vsftpd 2.3.4
-- 22/tcp  open  ssh         OpenSSH 4.7p1 Debian 8ubuntu1 (protocol 2.0)
+- 21/tcp  open  ftp        ``` vsftpd 2.3.4 ```
+- 22/tcp  open  ssh        ``` OpenSSH 4.7p1 Debian 8ubuntu1 (protocol 2.0) ```
 - 139/tcp open  netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
-- 445/tcp open  netbios-ssn Samba smbd 3.0.20-Debian (workgroup: WORKGROUP)
-- 3632/tcp open  distccd distccd v1 ((GNU) 4.2.4 (Ubuntu 4.2.4-1ubuntu4))
+- 445/tcp open  netbios-ssn Samba ```smbd 3.0.20-Debian (workgroup: WORKGROUP)```
+- 3632/tcp open  distccd distccd v1 ``` ((GNU) 4.2.4 (Ubuntu 4.2.4-1ubuntu4)) ```
 
 {{< /boxmd >}}
 
 ## Enumeration  port 21 
 
-The version of the vsftp is vulnerable to CVE: CVE-2011-2523, i have tried both metasploit and public exploit but nothing helped me probably they might be patched 
+The version of the vsftp is vulnerable to CVE: CVE-2011-2523, i have tried both metasploit and public exploit but nothing helped me probably they might be patched, 
 
 ```bash
 ┌─[atom@atom-vmwarevirtualplatform]─[~/htb/machines/lame]
@@ -212,11 +212,11 @@ OpenSSH < 7.7 - User Enumeration (2)                                            
 Shellcodes: No Results
 ```
 
-we did’t find any RCE on this Version, lets look on other ports if there are any critical vulnerability
+we did’t find any RCE on this Version, lets we move on other ports if there are any critical vulnerability
 
 ## Ennum and Exploit port 139 & 445
 
-we already Know the version let's look into exploit database weather the target version is vulerable to any exploit
+we already Know the version let's look into exploit database weather the target version is vulnerable to any exploit
 
 ``` bash {hl_lines = [8 ]}
 ┌─[✗]─[atom@atom-vmwarevirtualplatform]─[~]
