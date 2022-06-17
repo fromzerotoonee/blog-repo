@@ -10,8 +10,11 @@ enableTocContent: false
 author: Atom
 authorEmoji: ✍️
 tags: 
-- TOMCAT
+- Tomcat
 - OWASP-A07:2021
+- Malicious WAR File Upload
+- Default Credentials
+- Remote Code Execution
 series:
 - Pratical Ethical Hacking TCM
 categories:

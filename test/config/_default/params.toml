@@ -28,7 +28,7 @@ homeHeaderType = "text" # text, img, slide, typewriter
 hideHomeHeaderWhenMobile = false
 
 # menu
-showMobileMenuTerms = ["tags", "categories", "series"]
+showMobileMenuTerms = ["categories", "series"]
 
 # search
 enableSearch = true
@@ -73,7 +73,7 @@ link = "https://fromzerotoone.in"
 enableBio = true
 enableBioImage = true
 enableSidebar = true
-enableSidebarTags = true
+enableSidebarTags = false
 enableSidebarSeries = true
 enableSidebarCategories = true
 enableHomeSidebarTitles = true
