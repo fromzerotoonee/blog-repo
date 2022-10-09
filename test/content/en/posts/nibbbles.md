@@ -1,8 +1,8 @@
 ---
-title: "Hack Thee Box - Nibbbles"
+title: "Hack The Box - Nibbbles"
 date: 2022-06-24T17:56:18+05:30
 draft: false
-description: " jerry from HackTheBox is an retired machine which is vulnerable to Default Credential  and security Misconfiguration, which can be easily exploited with publicly available scripts and Metasploit "
+description: " Nibbles from HackTheBox is an retired machine which is vulnerable to File upload and security Misconfiguration, which can be easily exploited with publicly available scripts and Metasploit "
 hideToc: false
 tocPosition: outer
 enableToc: true
