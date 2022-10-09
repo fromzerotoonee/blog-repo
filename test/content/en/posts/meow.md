@@ -24,8 +24,6 @@ image: /images/hackthebox/meow/Meow1.png
 ---
 Hi Hackers Welcome Back, Today we are going to look at Hack The Box Nibbles Machine.
 
-{{< img src="/images/hackthebox/nibbles/nibbles.png" alt="image alt" width="450px"  position="center" >}}
-
 ## Info Table
 <table style="width:100%">
  <thead>
@@ -59,7 +57,7 @@ Hi Hackers Welcome Back, Today we are going to look at Hack The Box Nibbles Mach
 While enumerating ports and services we can able to find the port 23 ware open. while trying to connect with default or well known usernames. telnet ware get logged in without using password.
 
 ## Mind Map 
-{{< img src="/images/hackthebox/nibbles/mm.png" alt="image alt" width="1000px"  position="center" >}}
+{{< img src="/images/hackthebox/meow/mm.png" alt="image alt" width="1000px"  position="center" >}}
 
 ## Recon 
 Lets start with Initial scan.
