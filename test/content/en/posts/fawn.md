@@ -30,7 +30,7 @@ Hi Hackers Welcome Back, Today we are going to look at Hack The Box Fawn Machine
  <thead>
   <tr>
     <th>Room Name</th>
-    <th>Meow</th>
+    <th>Fawn</th>
   </tr>
 </thead>
 <tr>
