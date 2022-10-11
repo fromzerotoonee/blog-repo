@@ -2,11 +2,11 @@
 title: "Hack The Box - Meow"
 date: 2022-10-10T00:26:33+05:30
 draft: false
-description: Meow from HackTheBox is an retired machine which is vulnerable to Telnet and security Misconfiguration, which can be easily exploited with help of Basic Recon "
+description: " Meow from HackTheBox is an retired machine which is vulnerable to Telnet and security Misconfiguration, which can be easily exploited with help of Basic Recon "
 hideToc: false
 tocPosition: outer
 enableToc: true
-enableTocContent: true
+enableTocContent: false
 author: Atom
 authorEmoji: ✍️
 tags:
@@ -14,21 +14,20 @@ tags:
 series:
 - Starting Point Tire 0
 categories:
-- Easy
+- Very Easy
 - HackTheBox
 - Linux
-- Public Exploit
 libraries:
 
 image: /images/hackthebox/meow/Meow1.png 
 ---
-Hi Hackers Welcome Back, Today we are going to look at Hack The Box Nibbles Machine.
+Hi Hackers Welcome Back, Today we are going to look at Hack The Box Meow Machine.
 
 ## Info Table
 <table style="width:100%">
  <thead>
   <tr>
-    <th>Title</th>
+    <th>Room Name</th>
     <th>Meow</th>
   </tr>
 </thead>
@@ -43,7 +42,7 @@ Hi Hackers Welcome Back, Today we are going to look at Hack The Box Nibbles Mach
   </tr>
    <tr>
     <td>Difficulty</td>
-    <td>Easy</td>
+    <td>Very Easy</td>
     </tr>
     <tr>
     <td>Maker</td>
@@ -54,7 +53,7 @@ Hi Hackers Welcome Back, Today we are going to look at Hack The Box Nibbles Mach
 </table>
 
 ## Kill Chain Summery
-While enumerating ports and services we can able to find the port 23 ware open. while trying to connect with default or well known usernames. telnet ware get logged in without using password.
+While enumerating ports and services we can able to find the port 23 ware open. while trying to connect with default or well known usernames. Telnet ware get logged in without using password.
 
 ## Mind Map 
 {{< img src="/images/hackthebox/meow/mm.png" alt="image alt" width="1000px"  position="center" >}}
