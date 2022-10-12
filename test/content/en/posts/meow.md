@@ -89,6 +89,13 @@ OS and Service detection performed. Please report any incorrect results at https
 Nmap done: 1 IP address (1 host up) scanned in 61.80 seconds
 atom@atom-VirtualBox:~/htb/meow
 ```
+
+Telnet is considered insecure due to lacking the ability to encrypt the data being sent through it securely. This implies that an attacker with access to a network TAP (Traffic Access Point) could easily intercept the packets being sent through a Telnet connection and read the contents, be they login credentials, sensitive files, or anything else. Telnet, which runs on port 23 TCP by default, has mainly been replaced by its more secure counterpart, SSH , running on port 22 TCP by default.
+
+SSH, which stands for Secure Shell Protocol, adds the required layers of authentication and encryption to the communication model, making it a much more viable approach to perform remote access and remote file transfers. It is used both for patch delivery, file transfers, log transfer, and remote management in today's environment.
+
+SSH uses public-key cryptography to verify the remote host's identity, and the communication model is based on the ``` Client-Server architecture ``` , as seen previously with FTP, SMB, and other services. The local host uses the server's public key to verify its identity before establishing the encrypted tunnel connection. Once the tunnel is established, symmetric encryption methods and hashing algorithms are used to ensure the confidentiality and integrity of the data being sent over the tunnel.
+
 Lets we try to connect Telnet port 23 using some well-known default usernames and password like ubuntu, administrator,user,root ... 
 
 ```bash

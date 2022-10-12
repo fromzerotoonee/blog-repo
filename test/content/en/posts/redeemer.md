@@ -2,7 +2,7 @@
 title: "Hack The Box - Redeemer"
 date: 2022-10-12T02:41:09+05:30
 draft: false
-description: 
+description: " Redeemer from HackTheBox is an retired machine which is vulnerable to Redis and security Misconfiguration, which can be easily exploited with help of Basic Recon "
 hideToc: false
 enableToc: true
 enableTocContent: false
