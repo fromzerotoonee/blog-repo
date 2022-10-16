@@ -2,7 +2,7 @@
 title: "Hack The Box - Explosion"
 date: 2022-10-12T10:23:58+05:30
 draft: false
-description: " Meow from HackTheBox is an retired machine which is vulnerable to Telnet and security Misconfiguration, which can be easily exploited with help of Basic Recon "
+description: " Explosion from HackTheBox is an retired machine which is vulnerable to Telnet and security Misconfiguration, which can be easily exploited with help of Basic Recon "
 hideToc: false
 tocPosition: outer
 enableToc: true
@@ -19,7 +19,7 @@ categories:
 - Linux
 libraries:
 
-image: /images/hackthebox/explosion/explosion1.png 
+image: /images/hackthebox/explosion/1.png 
 ---
 
 Hi Hackers Welcome Back, Today we are going to look at Hack The Box Explosion Machine.
@@ -159,4 +159,4 @@ atom@atom-VirtualBox:~/htb/explosion$ xfreerdp /v:10.129.1.13 /cert:ignore /u:Ad
 [10:20:12:658] [10432:10433] [INFO][com.freerdp.crypto] - created directory [/home/atom/.config/freerdp/server]
 Password:
 ```
-{{< img src="/images/hackthebox/explosion/explosion2.png" alt="image alt" width="600px" position="center" >}}
+{{< img src="/images/hackthebox/explosion/explosion2.png" alt="image alt" width="1000px" position="center" >}}

@@ -19,7 +19,7 @@ categories:
 - Linux
 libraries:
 
-image: /images/hackthebox/fawn/fawn1.png
+image: /images/hackthebox/fawn/1.png
 ---
 
 Hi Hackers Welcome Back, Today we are going to look at Hack The Box Fawn Machine.

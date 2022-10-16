@@ -18,7 +18,7 @@ categories:
 - Linux
 libraries:
 
-image: /images/hackthebox/redeemer/redeemer1.png
+image: /images/hackthebox/redeemer/1.png
 ---
 Hi Hackers Welcome Back, Today we are going to look at Hack The Box Redeemer Machine.
 
