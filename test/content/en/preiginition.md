@@ -1,6 +1,6 @@
 ---
 title: "Hack The Box - Preiginition"
-date: 2022-10-12T13:05:03+05:30
+date: 2022-10-16T13:05:03+05:30
 draft: false
 description: " Preigination from HackTheBox is an retired machine which is vulnerable to security Misconfiguration, which can be easily exploited with help of default credential "
 hideToc: false
