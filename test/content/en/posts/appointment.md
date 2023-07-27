@@ -24,7 +24,7 @@ image: /images/hackthebox/Appointment/1.png
 
 Hi Hackers Welcome Back, Today we are going to look at Hack The Box Appointment Machine
 
-## Recon 
+## Recon
 
 lets start with Basic Recon 
 
