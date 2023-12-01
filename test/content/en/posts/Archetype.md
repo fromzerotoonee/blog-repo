@@ -1,6 +1,6 @@
 ---
-title: "MY First Site"
-date: 2023-07-27T23:12:49+05:30
+title: "Archetype"
+date: 2023-12-02T00:03:25+05:30
 draft: false
 description: 
 hideToc: false
