@@ -24,7 +24,7 @@ libraries:
 image: /images/hackthebox/blue/Blue.png 
 ---
 
-Hi Hackers Welcome Back, Today we are going to look at Hack The Box Blue Machine.
+Hi Hackersuun Welcome Back, Today we are going to look at Hack The Box Blue Machine.
 
 {{< img src="/images/hackthebox/blue/1.png" alt="image alt" width="450px"  position="center" >}}
 
