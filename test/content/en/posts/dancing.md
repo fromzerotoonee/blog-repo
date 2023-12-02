@@ -19,6 +19,7 @@ categories:
 libraries:
 - 
 image: /images/hackthebox/dancing/2.png
+
 ---
 
 Hi Hackers Welcome Back, Today we are going to look at Hack The Box Dancing Machine.
