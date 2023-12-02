@@ -7,7 +7,7 @@
 [[main]]
   identifier = "archive"
   name = "Archive"
-  url = "archive"
+  #url = "archive"
   weight = 4
 
 #[[main]]
